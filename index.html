@@ -6,12 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Portfolio</title>
+    <style>
+    
+    .myContainer {
+
+    }
+
+    .myRow {
+
+    }
+
+    .myCol {
+    }
+
+    @media (min-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    }
+    </style>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
             <div class="w-75 container">
-                <a class="navbar-brand" href="#">Darren Pham</a>
+                <a class="navbar-brand" href="#"><h2>Darren Pham</h2></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -26,7 +45,7 @@
                             <a class="nav-link" href="#">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                            <a class="nav-link" href="#">Portfolio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact</a>
@@ -37,23 +56,23 @@
         </nav>
     </header>
 <br>
-    <div class="w-75 container">
-        <div class="row">
-            <div class="col">
-            about me
+    <div class="container myContainer">
+        <div class="row myRow">
+            <div class="col myCol">
+            <h2>About Me</h2>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-            pic
+        <div class="row myRow">
+            <div class="col-md-3 myCol text-center">
+                <img class="rounded img-fluid" src="assets/images/darren.pham.jpeg" alt="Darren Pham">
             </div>
-            <div class="col">
-            p1
+            <div class="col-md-9 myCol">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-            p2
+        <div class="row myRow mt-3">
+            <div class="col myCol">
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
             </div>
         </div>
     </div>
